@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .modal-container {
   background-color: gray;
   width: 100vw;
@@ -15,11 +18,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 25vh auto auto auto;
+  margin: 25% auto auto auto;
   background-color: blue;
   color: white;
-  width: 50vw;
-  height: 50vh;
+  padding:0 20px;
+  width: 50%;
+  height: auto;
 }
 
 p, h2 {
@@ -27,4 +31,5 @@ p, h2 {
 }
 button{
   cursor: pointer;
+  margin-bottom: 10px;
 }
