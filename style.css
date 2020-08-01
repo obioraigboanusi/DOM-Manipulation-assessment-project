@@ -1,0 +1,30 @@
+.modal-container {
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25vh auto auto auto;
+  background-color: blue;
+  color: white;
+  width: 50vw;
+  height: 50vh;
+}
+
+p, h2 {
+  text-align: center;
+}
+button{
+  cursor: pointer;
+}
